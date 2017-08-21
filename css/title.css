@@ -1,0 +1,138 @@
+* {
+	letter-spacing: 1px;
+	font-family: inherit;
+}
+.titleff {
+	font-size: 6em;
+	font-family: 'Sedgwick Ave Display', cursive;
+	text-shadow: black .05em .05em .2em;
+}
+ul li {
+	text-shadow: black .05em .05em .1em;
+}
+.somefont {
+	text-shadow: black .05em .05em .1em;
+}
+.allimg {
+	height: 50em;
+}
+.allimgthree {
+	height: 65em;
+}
+.title {
+	padding-top: 23rem;
+}
+.titleh5 {
+	padding: 18em 0 2em 0;
+	/*padding:16em 0 5em 0;*/
+}
+/**/
+.titleimg {
+	margin-bottom: 15em;
+	background-image: url('../img/001.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+.imgpd {
+	padding: .2em;
+}
+/*two*/
+.titletwo {
+	/*margin-top: 18em;*/
+	/*background-image: url('../img/002.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+*/}
+
+.twobrd {
+	border: solid 1px black;
+	border-color: #17a2b8;
+	padding: 1em;
+	border-radius: .2em;
+	background-color: rgba(255,255,255,.5);
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+/*three*/
+.titlethree {
+	background-image: url('../img/003.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+.buy {
+	padding-bottom: 4em;
+}
+.circle_images {
+	padding-bottom: .5em;
+}
+.circle_img {
+	display: inline-block;
+	padding: 1em;
+}
+/*four*/
+.titlefour {
+	background-image: url('../img/004.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+.contacts {
+	padding-top: 4em;
+	padding-bottom: 2em;
+}
+/*five*/
+.titlefive {
+	/*background-image: url('../img/005.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+*/}
+.iconbtone,.iconbttwo {
+	margin: 1em;
+}
+/*footer*/
+.footer {
+	background-color: rgba(255,255,255,.3);
+	padding: 1em;
+}
+/*phone*/
+@media screen and (min-width: 300px) and (max-width: 425px) {
+	.titleff {
+		font-size: 3.5em;
+	}
+	.allimg {
+		height: 40em;
+	}
+	.allimgthree {
+		height: 45em;
+	}
+	.titleh5 {
+		padding: 17em 0 2em 0;
+	}
+	.title {
+		padding-top: 18rem;
+	}
+	.titlephone {
+		padding-top: 5em;
+	}
+	.title_icon {
+		padding-top: 5em;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+	.mr-auto {
+		margin-left: 20em;
+	}
+	ul li {
+		padding: 0 1em 0 1em;
+	}
+	.navbar {
+		background-color: rgba(255,255,255,.3);
+			}
+}
